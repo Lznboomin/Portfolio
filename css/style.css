@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 100vh;
+  background: #232526;
+  background: -webkit-linear-gradient(to right, #414345, #232526);
+  background: linear-gradient(to right, #414345, #232526);
+}
+nav i {
+  font-size: 3.5rem !important;
+}
+nav li a {
+  font-size: 1.5rem;
+}
+.bullet {
+  list-style-type: circle !important;
+  font-size: 1.4rem;
+}
+/* .about {
+  margin: 90vh auto;
+} */
+.active {
+  color: #2f96db;
+}
+.alt {
+  background: #f8f8f8;
+}
+.section {
+  min-height: 85vh;
+}
+.cardimg {
+  max-width: 9rem;
+  height: auto;
+  margin: auto;
+  padding-top: 2rem;
+}
+.display {
+  text-align: center;
+}
+.fa {
+  font-size: 2.7rem;
+  padding: 0.2rem;
+  color: white;
+}
+.fa:hover {
+  color: #2f96db;
+}
+.mt {
+  margin-top: 3rem;
+}
+.mt1 {
+  margin-top: 1rem;
+}
+.mt5 {
+  margin-top: 5rem;
+}
+.ml {
+  margin-left: 2rem;
+}
+.box {
+  border: 3px solid black;
+}
+.welcome {
+  font-weight: 700;
+}
+.greeting {
+  font-weight: 600;
+}
+@media only screen and (min-width: 400px) {
+  .about {
+    margin: 30vh auto;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .about {
+    margin: 20vh auto;
+  }
+}
